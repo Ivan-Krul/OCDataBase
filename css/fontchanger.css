@@ -1,6 +1,15 @@
-* {
-  font-family: Rockwell;
-  }
-  img {
-    border: 5px solid black;
-  }
+@import url(images.css);
+
+h2 {
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+  font-family: Calibri;
+  font-size: 16px;
+}
+a {
+  font-size: 16px;
+  font-style: italic;
+}
