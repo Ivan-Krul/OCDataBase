@@ -1,8 +1,15 @@
+.footer_classic {
+    margin-left: 1cm;
+    margin-top: 0.9cm;
+    padding-left: 5mm;
+    background-color: #ddddff;
+}
+
 .footer_classic p {
-    font-size: 0.6cm;
+    font-size: 0.5cm;
     line-height: 0.5cm;
 }
 
 .footer_classic a {
-    font-size: 0.6cm;
+    font-size: 0.5cm;
 }
