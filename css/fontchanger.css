@@ -1,9 +1,5 @@
 @import url(images.css);
 
-.text-classic {
-
-}
-
 .text-classic h2 {
   font-weight: bold;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,4 +12,8 @@
 }
 .text-classic a {
   font-style: italic;
+}
+
+.triage-font {
+  background-color: #a50a0a;
 }
