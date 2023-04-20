@@ -1,5 +1,5 @@
 img {
-    border: 5px solid black;
-    image-rendering: pixelated;
-
-  }
+  border: 5px solid black;
+  image-rendering: pixelated;
+  padding: 5px;
+}

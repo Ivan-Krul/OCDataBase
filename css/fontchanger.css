@@ -1,10 +1,10 @@
 @import url(images.css);
 
 .text-classic h2 {
-  font-weight: bold;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   margin: 5px;
+  font-size: 1cm
 }
 
 .text-classic p {
@@ -16,4 +16,8 @@
 
 .triage-font {
   background-color: #a50a0a;
+}
+
+.triage-img img {
+  filter:grayscale(100%)
 }

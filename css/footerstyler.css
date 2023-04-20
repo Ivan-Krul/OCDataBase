@@ -1,6 +1,11 @@
 .footer_classic {
     margin-left: 1cm;
-    margin-top: 0.9cm;
+    margin-top: 0.3cm;
     padding-left: 5mm;
     background-color: #a0f8f1;
+}
+
+.footer_classic p {
+    margin-top: 2mm;
+    margin-bottom: 2mm;
 }
