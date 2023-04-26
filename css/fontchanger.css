@@ -18,6 +18,7 @@
   background-color: #a50a0a;
 }
 
-.triage-img img {
-  filter:grayscale(75%)
+.triage-link {
+  background-color: #a50a0a;
+  color: #ffffff;
 }

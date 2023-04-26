@@ -3,3 +3,7 @@ img {
   image-rendering: pixelated;
   padding: 5px;
 }
+
+.triage-img img {
+  filter:grayscale(75%)
+}

@@ -1,5 +1,33 @@
 
 .list_classic li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 0.4cm;
+    font-size: 0.5cm;
+    padding: 0.1cm;
+}
+
+.list_blocktile nav li{
+    list-style-type: none;
+    float: left;
+}
+.list_blocktile nav li a{
+	display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: black;
+
+    margin-right: 0.4cm;
+	line-height: 2em;
+	padding-right: 1em;
+    padding-left: 1em;
+}
+
+.list_blocktile nav li a:hover{
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.list_blocktile p{
+    clear: left;
 }
