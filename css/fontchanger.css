@@ -10,9 +10,6 @@
 .text-classic p {
   font-family: Calibri;
 }
-.text-classic p:hover {
-  background-color: #dddddd;
-}
 
 .text-classic a {
   font-style: italic;
