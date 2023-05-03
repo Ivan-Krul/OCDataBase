@@ -1,0 +1,32 @@
+Kiwuar:		root
+Julia:		mother
+Frank:		father
+Kevin:		friend
+
+Jania:		root
+Kate:		mother
+Jonaton:	father
+Diana:		ex-friend
+Mitchell:	friend
+
+Stefan:		root
+Nora:		mother
+Andrew:		father
+Gray:		friend
+Grace:		friend
+
+Alexa:		root
+Abigail:	mother
+Max:		father
+Yogan:		ex-partner
+Walt:		flirter?
+
+Thomas:		root
+Laura:		mother
+Filip:		father
+Stasy:		ex-partner
+
+Ostafan:	root
+Ruby:		mother
+Myles:		father
+

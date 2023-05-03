@@ -1,5 +1,12 @@
-
 .list_classic li {
+    display: inline-block;
+    margin-right: 0.4cm;
+    font-size: 0.5cm;
+    padding: 0.1cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.list_classic li a {
     display: inline-block;
     margin-right: 0.4cm;
     font-size: 0.5cm;
