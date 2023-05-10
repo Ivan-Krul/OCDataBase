@@ -29,4 +29,5 @@ Stasy:		ex-partner
 Ostafan:	root
 Ruby:		mother
 Myles:		father
-August:     friend
+Ashton:		brother
+August:		friend
