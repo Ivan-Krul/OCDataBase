@@ -1,4 +1,22 @@
-import * as strmgr from "./string_managers.js";
+function getCountToRoot() {
+	let path = window.location.pathname;
+
+	const slashCount = (path.match(/\//g) || []).length;
+	const splitedStr = path.split("OCDataBase")[0];
+	const slashCountDomain = (splitedStr.match(/\//g) || []).length;
+	const resCount = slashCount - slashCountDomain - 1;
+
+	return resCount;
+}
+
+function assembleArrayToString(stringArray) {
+	let str = "";
+
+	for (let index = 0; index < stringArray.length; index++)
+		str += stringArray[index];
+
+	return str;
+}
 
 let footerBody = [
 	"<footer class=\"footer_classic\">",
@@ -12,8 +30,8 @@ let footerBody = [
 	"</ul>",
 	"</footer>"];
 
-let footerSingleString = strmgr.assembleArrayToString(footerBody);
-const countToRoot = strmgr.getCountToRoot();
+let footerSingleString = assembleArrayToString(footerBody);
+const countToRoot = getCountToRoot();
 
 for(let index = 0; index < countToRoot; index++) {
 	footerSingleString = footerSingleString.replace("js/", "../js/");
