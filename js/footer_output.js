@@ -1,4 +1,4 @@
-footer_body = [
+let footerBody = [
     "<footer class=\"footer_classic\">",
     "<p>Author: Kiwii Devulopir</p>",
     "<p>Update time: <script src=\"js/current_date.js\"></script></p>",
@@ -12,20 +12,30 @@ footer_body = [
 
 
 
-var path = window.location.pathname;
-const slashCount = (path.match(/\//g) || []).length;
-console.log( slashCount );
+function getCountToRoot() {
+    let path = window.location.pathname;
 
-    
+    const slashCount = (path.match(/\//g) || []).length;
+    const splitedStr = path.split("OCDataBase")[0];
+    const slashCountDomain = (splitedStr.match(/\//g) || []).length;
+    const resCount = slashCount - slashCountDomain - 1;
 
-let footer_single_string = "";
-
-for (let index = 0; index < footer_body.length; index++) {
-    const element = footer_body[index];
-    footer_single_string += element;
+    return resCount;
 }
 
-document.write(footer_single_string);
+let footerSingleString = "";
+
+for (let index = 0; index < footerBody.length; index++)
+{
+    const element = footerBody[index];
+    footerSingleString += element;
+}
+
+for(let index = 0; index < getCountToRoot(); index++) {
+    footerSingleString = footerSingleString.replace("js/", "../js/");
+}
+
+document.write(footerSingleString);
 
 
 
