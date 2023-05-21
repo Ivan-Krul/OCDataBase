@@ -3,3 +3,5 @@ tom.lnk
 /experiment
 additional resource.lnk
 /resource/free names.txt
+/resource/*.psd
+/resource/*.xcf
