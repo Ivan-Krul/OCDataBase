@@ -14,13 +14,16 @@
   color: #dddddd;
 }
 
-.text-classic p {
-  font-family: Calibri;
+.text-classic a {
+  font-size:1em;
 }
 
-.text-classic a {
-  font-style: italic;
+.text-classic p {
+  font-size:1.15em;
+  margin-top: 0.85em;
+  margin-bottom: 0.85em;
 }
+
 
 .triage-font {
   background-color: #a50a0a;
