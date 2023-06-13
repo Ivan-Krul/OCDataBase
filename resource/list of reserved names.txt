@@ -31,3 +31,7 @@ Ruby:		mother
 Myles:		father
 Ashton:		brother
 August:		friend
+
+Ukinas:     root
+Mary:       mother
+Isaac:      father
