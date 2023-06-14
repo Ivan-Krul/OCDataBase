@@ -35,3 +35,4 @@ August:		friend
 Ukinas:     root
 Mary:       mother
 Isaac:      father
+Mia:        friend
