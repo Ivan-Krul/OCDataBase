@@ -16,6 +16,11 @@
 
 .text-classic a {
   font-size:1em;
+  color:#2a74d4;
+}
+
+.text-classic a:visited {
+  color:#2a74d4;
 }
 
 .text-classic p {
@@ -31,5 +36,5 @@
 
 .triage-link {
   background-color: #a50a0a;
-  color: #ffffff;
+  color: #ffffff !important;
 }
